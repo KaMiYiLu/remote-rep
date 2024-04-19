@@ -1,0 +1,245 @@
+body{
+    background-color: rgb(203, 250, 250);
+
+}
+.header1{
+    background-color: rgb(74, 72, 69);
+}
+.wrapper{
+    /* background-color: rgb(252, 247, 232); */
+    margin: 0 auto;
+    width: 1230px;
+}
+.header1 ul{
+    display: flex;
+    justify-content: space-between;   
+    line-height: 34px;
+}
+/* .head ul li{
+    margin-right: 30px;  
+} */
+.header1 ul li a{
+    font-size: 12px;
+    color: #cacaca;
+}
+.header1 ul li a:hover{
+    color: #fff;
+}
+.sep{
+    color: rgb(148, 147, 147);
+    margin: 0 3px;
+    opacity: 0.3;
+}
+.login{
+    margin-left: 200px;
+}
+.cart{
+    display: block;
+    width: 110px;
+    text-align: center;
+    margin-left:20px;
+    background-color: rgb(168, 164, 164);
+}
+.header2 .wrapper{
+    background-color: rgb(252, 247, 232);
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+}
+.header2 .wrapper .left ul{
+    display: flex;
+}
+.header2 .wrapper ul{
+    margin: 20px 0;
+}
+.header2 .wrapper .logo a{
+    font-size: 0px;
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 20px 120px 20px 0;
+    background: url(../images/Milogo.png);
+}
+.header2 .wrapper ul li{
+    margin: 0 12px;
+    line-height: 64px;
+    font-size: 15px;
+}
+.header2 .wrapper .right{
+    display: flex;
+    /* justify-content: space-between; */
+    background-color: aqua;
+    margin-top: 30px;
+    width: 290px;
+    height: 50px;
+    align-content: center;
+}
+.header2 .wrapper .right a{ 
+    text-align: center;
+    align-content: center;
+    background-color: aqua;
+    width: 55px;
+    height: 50px; 
+    color: tomato;
+    border:1px solid rgb(46, 46, 46);
+    background: url(../images/Misearch01.png) ;
+}
+.header2 .wrapper .right input{
+    flex: 1;
+    /* width: 200px; */
+}
+.header3 .wrapper{
+    display: flex;
+}
+.header3 .wrapper .left{
+    width: 230px;
+    background-color: rgb(161,159,159); 
+    padding: 20px 0;
+}
+.header3 .wrapper .left li:hover{
+    background-color: rgb(255,103,0);  
+}
+.header3 .wrapper .left a{
+    color: #ffffff;
+    line-height: 45px;
+}
+.header3 .wrapper .left a span{
+    display: block;
+    margin: 0 20px 0 20px;
+    background: url(../images/right.png) no-repeat right;  
+}
+.header3 .wrapper .right{
+    display: flex;
+    flex: 1;
+}
+.header3 .wrapper .right a{
+    flex: 1;
+    background: url(../images/Midatu.png);
+}
+.header4 .wrapper{
+    margin-top: 20px;
+    display: flex; 
+    justify-content: space-between;
+}
+.header4 .wrapper .left ul{
+    margin-right: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 230px;
+    height: 128px;
+}
+.header4 .wrapper .left ul a{
+    display: block;
+    width: 76px;
+    height: 76px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+.header4 .wrapper .right{
+    /* background-color: rgb(180, 124, 158); */
+    flex: 1;
+}
+.header4 .wrapper .right ul{
+    display: flex;
+    height: 150px;
+    width: 982px;
+    background-color: aqua;
+    justify-content: space-between;
+}
+.header4 .wrapper .right ul a{
+    display: block;
+    width: 314px;
+    height: 150px;
+    /* background-color: rgb(35, 209, 151); */
+    background: url(../images/MIpro1.png);
+}
+.wrapper .newP a{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 1232px;
+    height: 150px;
+    background: url(../images/Milong.png);
+}
+.header5 .hd{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    line-height: 60px;
+}
+.hd h3{
+    font-weight: 400;
+    font-size: 21px;
+}
+.hd .more{
+    
+    background-color: #00a4ff;
+    padding-right: 20px;
+    background: url(../images/more.png) no-repeat right center;
+    font-size: 14px;
+    color: #936262;
+}   
+.bd ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} 
+.bd li{
+    /* margin: 0 14px 14px 14px; */
+    margin-bottom: 14px;
+    width: 220px;
+    height: 360px;
+    background-color: rgb(137, 69, 79);
+}   
+/* .bd li .pic{
+    height: 156px;
+}
+.bd li .text{
+    padding: 20px;
+    height: 115px;
+    background-color: #fff;
+}
+.bd li .text h4{
+    margin-bottom: 13px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+}
+.bd li .text p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #999;
+}
+.bd li .text p span{
+    color: #fa6400;
+}
+.bd li .text p i{
+    font-style: normal;
+} */
+.wrapper .hd ul{
+    display: flex;
+}
+.hd li{
+   margin-right: 60px; 
+   font-size: 16px;
+}
+.hd li .active {
+    color: #00a4ff;
+}
+.bd{
+    display: flex;
+    justify-content: space-between;
+}
+.bd .left{
+    width: 274px;
+    background-color: pink;
+}
+.bd .right{
+    width: 932px;
+    background-color: pink;
+}
+.bd .right.top{
+    margin-top: 15px;
+    height: 100px;
+}

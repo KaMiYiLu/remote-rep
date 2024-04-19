@@ -1,0 +1,334 @@
+/* 首页样式 */
+/* 版心 */
+.wrapper{
+    margin: 0 auto;
+    width: 1200px;
+    background-color: 90bfed;
+}
+body{
+    background-color: #eff0f2;
+}
+.header{ 
+    height: 100px;
+    background-color: #f4cece;
+}
+.header .wrapper{
+    padding-top: 29px;
+    display: flex;
+}
+/* logo区域 */
+.logo a{
+    /* margin-left: 50px; */
+    display: block;
+    height: 41px;
+    width: 195px;
+    font-size: 0;
+    background-image: url(../images/logo.png);
+}
+.nav{
+    margin-left: 102px;
+}
+.nav ul{
+    display: flex;
+}
+.nav li{
+    margin-right: 24px;
+}
+.nav li a{
+    display: block;
+    /* 去掉超链接下划线 */
+    /* text-decoration: none; */
+    padding: 6px 8px;
+    line-height: 27px;
+    font-size: 19px;
+}
+.nav li .active,
+.nav li a:hover{
+    border-bottom: 2px solid #00a4ff;
+}
+.search{
+    display: flex;
+    margin-left: 64px;
+    padding-left: 19px;
+    padding-right: 12px;
+    width: 412px;
+    height: 40px;
+    background-color: #f3f5f7;
+    border-radius: 20px;
+}
+.search input{
+    flex: 1;
+    border: none;
+    background-color: transparent;
+    /* 去掉表单焦点框 */
+    outline: none;
+}
+.search .input ::placeholder{
+    font-size: 14px;
+    color: #999;
+}
+/* 父级flex了，子集变成弹性盒子了 */
+.search a{
+    align-self: center;
+    width: 16px;
+    height: 16px;
+    background-image:url(../images/search.png)
+}
+.user{
+    margin-left: 32px;
+    margin-top: 4px;
+}
+.user img{
+    /* vertical-align 行内块，行内垂直方向对齐方式 */
+    vertical-align: middle;
+    margin-right: 7px;
+}
+/* .user a{
+    text-decoration: none;
+} */
+.uaer span{
+    
+    font-size: 16px;
+    flood-color: #666;
+}
+.banner{
+    height: 420px;
+    background-color: #0092cb;
+}
+.banner .wrapper{
+    justify-content:space-between;
+    display: flex;
+    height: 420px;
+    background-image: url(../uploads/banner.png);
+}
+.banner .left{
+    padding: 3px 20px;
+    width: 191px;
+    height: 420px;
+    background-color:rgba(0,0,0,0.12);
+}
+.banner .left a{
+    display: block;
+    height: 46PX;
+    background: url(../images/right.png) no-repeat right center;
+    line-height: 46px;
+    font-size: 16PX;
+    color: #FFF;
+}
+.banner .left a:hover{
+    background-image: url(../images/right-hover.png);
+    color: #00a4ff;
+}
+.banner .right{
+    margin-top: 60px;
+    width: 218px;
+    height: 305px;
+    background-color: #209dd5;
+    border-radius: 10px;
+}
+.banner .right h3{
+    margin-left: 14px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 400;
+}
+.banner .right .content{
+    padding: 14px;
+    height: 257px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.banner .right dl {
+    margin-bottom: 12px;
+    border-bottom: 1px solid #a19e9e;
+}
+.banner .right dt{
+    margin-bottom: 8px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+}
+.banner .right dd{
+    margin-bottom: 8px;
+    font-size: 12px;
+    line-height: 16px;
+}
+.banner .right dd span{
+    color:#00a4ff ;
+}
+.banner .right dd strong{
+    color:#7d7d7d ;
+    font-weight: 400;
+}
+.banner .right a{
+    display: block;
+    height: 32px;
+    background-color: #00a4ff;
+    text-align: center;
+    line-height: 32px;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 40px;
+}
+.recommend {
+    display: flex;
+    margin-top: 11px;
+    padding: 0 20px;
+    height: 60px;
+    background-color: #fff;
+    box-shadow: 0px 1px 2px 0px rgba(87, 65, 65, 0);
+    line-height: 60px; 
+}
+.recommend h3{
+   font-size: 18px; 
+   color: #00a4ff;
+   font-weight: 400;
+}
+.recommend ul{
+    display: flex;
+    flex: 1;
+}
+.recommend ul li a{
+    padding: 0 24px;
+    font-size: 18px;
+    border-left: 1px solid #e5e5e5; 
+}
+.recommend ul li:first-child a{
+    border-left: none;
+}
+.recommend .modify{
+    font-size: 16px;
+    color:#00a4ff
+}
+/* 推荐课程 */
+.course{
+    margin-top: 15px;
+}
+/* 编写公共类，以便后续继承 */
+.hd{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    line-height: 60px;
+}
+.hd h3{
+    font-weight: 400;
+    font-size: 21px;
+}
+.hd .more{
+    
+    background-color: #00a4ff;
+    padding-right: 20px;
+    background: url(../images/more.png) no-repeat right center;
+    font-size: 14px;
+    color: #936262;
+}   
+.bd ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} 
+.bd li{
+    margin-bottom: 14px;
+    width: 228px;
+    height: 271px;
+    background-color: pink;
+}   
+.bd li .pic{
+    height: 156px;
+}
+.bd li .text{
+    padding: 20px;
+    height: 115px;
+    background-color: #fff;
+}
+.bd li .text h4{
+    margin-bottom: 13px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+}
+.bd li .text p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #999;
+}
+.bd li .text p span{
+    color: #fa6400;
+}
+.bd li .text p i{
+    font-style: normal;
+}
+.wrapper .hd ul{
+    display: flex;
+}
+.hd li{
+   margin-right: 60px; 
+   font-size: 16px;
+}
+.hd li .active {
+    color: #00a4ff;
+}
+.bd{
+    display: flex;
+    justify-content: space-between;
+}
+.bd .left{
+    width: 228px;
+    background-color: pink;
+}
+.bd .right{
+    width: 957px;
+    background-color: pink;
+}
+.footer{
+    margin-top: 60px;
+    padding-top: 60px;
+    height: 273px;
+    background: #fff;
+}
+.footer .wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.footer .left{
+    width: 440px;
+    /* background-color: pink; */
+}
+.footer .left p{
+    font-size: 12px;
+    line-height: 17px;
+    color: #666;
+    margin-top: 24px;
+    margin-bottom: 14px;
+}
+.footer .left .download{
+    display: block;
+    width: 120px;
+    /* background-color: #666; */
+    height: 36px;
+    text-align: center;
+    line-height: 34px;
+    font-size: 16px;
+    border: 1px solid #00a4ff;
+    color: #00a4ff;
+}
+.footer .right{
+    display: flex;
+}
+.footer .right dt{
+    margin-bottom: 12px;
+    font-size: 16px;
+    line-height :23px; ;
+}
+.footer .right dl{
+    margin-left: 130px;
+}
+.footer .right a{
+    font-size: 14px;
+    line-height: 24px;
+    color: #666;
+}
